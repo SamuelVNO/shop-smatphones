@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @import "tailwindcss";
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8fafc 100%);
+  color: #222;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e3f0ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #b6d0f7;
+  border-radius: 8px;
+}
